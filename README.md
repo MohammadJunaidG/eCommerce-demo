@@ -26,7 +26,8 @@ MySql Database
 **1. A user can signUp and singIn with their username, emailId, password and roles as customer or admin.**
   
    API for signup: /ecomm/api/v1/auth/signup
-   API for signip: /ecomm/api/v1/auth/signin
+
+  API for signip: /ecomm/api/v1/auth/signin
 
 **2. Only Admin can create the new categories and products:**
 
