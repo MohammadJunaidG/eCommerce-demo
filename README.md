@@ -6,34 +6,22 @@ This is a simple E-commerce backend application. The application loads products 
 **Getting Started**
 To get started you can simply clone this ecommerce-demo repository and install the dependencies.
 
-Clone the ecommerce-d
-emo repository using git:
+
+Clone the ecommerce-demo repository using git:
 
 git clone https://github.com/MohammadJunaidG/eCommerce-demo
 cd ecommerce-demo
-Install dependencies with this command:
 
-npm install
-Run the application with this command:
+Install dependencies with this command: **npm install**
+Run the application with this command:  **npm start**
 
-npm start
-Tech Stack
-Node.js
-Express.js
-Sequelize
+**Tech Stack**
+Node.js,
+Express.js,
+Sequelize,
 MySql Database
 
-This project need the following external modules to run:
-    "bcryptjs",
-    "body-parser",
-    "dotenv",
-    "express",
-    "jsonwebtoken",
-    "mysql2",
-    "sequelize"
-
-
-This application has the following functionalities:
+**This application has the following functionalities:**
 
 **1. A user can signUp and singIn with their username, emailId, password and roles as customer or admin.**
   
