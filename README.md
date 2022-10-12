@@ -9,7 +9,7 @@ To get started you can simply clone this ecommerce-demo repository and install t
 Clone the ecommerce-d
 emo repository using git:
 
-git clone https://github.com/ratracegrad/ecommerce-demo
+git clone https://github.com/MohammadJunaidG/eCommerce-demo
 cd ecommerce-demo
 Install dependencies with this command:
 
@@ -18,10 +18,10 @@ Run the application with this command:
 
 npm start
 Tech Stack
-AngularJS
 Node.js
 Express.js
-Bootstrap
+Sequelize
+MySql Database
 
 This project need the following external modules to run:
     "bcryptjs",
@@ -43,22 +43,22 @@ This application has the following functionalities:
 **2. Only Admin can create the new categories and products:**
 
     **APIs for product:**
-        **To create:**   /ecomm/api/v1/categories
-        **To update:**   /ecomm/api/v1/categories/:id
-        **To findAll:**  /ecomm/api/v1/categories
-        **To find one:** /ecomm/api/v1/categories/:id
-        **To delete:**   /ecomm/api/v1/categories/:id
+        To create:   /ecomm/api/v1/categories
+        To update:   /ecomm/api/v1/categories/:id
+        To findAll:  /ecomm/api/v1/categories
+        To find one: /ecomm/api/v1/categories/:id
+        To delete:   /ecomm/api/v1/categories/:id
     
     **APIs for products:**
-        **To create:**   /ecomm/api/v1/products
-        **To update:**   /ecomm/api/v1/products/:id
-        **To findAll:**  /ecomm/api/v1/products
-        **To find one:** /ecomm/api/v1/products/:id
-        **To delete:**   /ecomm/api/v1/products/:id
+        To create:   /ecomm/api/v1/products
+        To update:   /ecomm/api/v1/products/:id
+        To findAll:  /ecomm/api/v1/products
+        To find one: /ecomm/api/v1/products/:id
+        To delete:   /ecomm/api/v1/products/:id
 
 **3. Admin and customer both can create and update the cart:**
 
     **APIs for Cart:**
-        **To create:**   /ecomm/api/v1/carts
-        **To update:**   /ecomm/api/v1/carts/:id
-        **To find:**  /ecomm/api/v1/carts
+        To create:*  /ecomm/api/v1/carts
+        To update:   /ecomm/api/v1/carts/:id
+        To find:  /ecomm/api/v1/carts
